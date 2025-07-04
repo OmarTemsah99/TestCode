@@ -1,8 +1,10 @@
 import java.util.Date;
+
 // This where we create new product subclasses from the product SuperClass.
 // We have interface Shippable and Expirable to be implemented by the subclasses to identify some unique setting to some items.
 interface Shippable {
 	String getName();
+
 	double getWeight();
 }
 
